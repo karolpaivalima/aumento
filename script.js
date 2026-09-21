@@ -21,6 +21,6 @@ function calcularAumento() {
     let porcentagem = ((novoSalario*100)/salario) - 100
 
 
-    resultado.textContent = `Aumento = ${aumento.toFixed(2)} reais
+    resultado.innerHTML = `Aumento = ${aumento.toFixed(2)} reais <br>
     Porcentagem = ${porcentagem}%`
 }
